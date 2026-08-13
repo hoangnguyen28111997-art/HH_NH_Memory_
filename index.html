@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f4ef" />
+  <title>Huy Hoàng ♥ Ngọc Huyền</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="page-loader" class="page-loader">
+    <div class="loader-heart">♥</div>
+    <p>Loading our memories...</p>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">Huy Hoàng ♥ Ngọc Huyền</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#counter">Together</a>
+      <a href="#story">Timeline</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#videos">Video</a>
+      <a href="#letter">Letter</a>
+    </nav>
+  </header>
+
+  <main>
+
+  <section id="home" class="hero">
+
+    <!-- Ảnh background chuyển cảnh -->
+    <div class="hero-slideshow">
+      <div class="hero-slide active"></div>
+      <div class="hero-slide"></div>
+    </div>
+
+    <!-- Lớp tối phủ lên ảnh -->
+    <div class="hero-overlay"></div>
+
+    <!-- Nội dung -->
+    <div class="hero-content reveal">
+
+      <h1 id="heroTitle">
+        Huy Hoàng ♥ Ngọc Huyền
+      </h1>
+
+      <p id="heroSubtitle">
+        Huy Hoàng ♥ Ngọc Huyền
+      </p>
+
+      <a href="#story" class="primary-btn">
+        Đây là góc nhỏ của tụi mình nèeeee
+      </a>
+
+    </div>
+
+    <div class="scroll-hint">⌄</div>
+
+  </section>
+    <section id="counter" class="section soft-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">♥♥♥
+        <h2>Chúng ta đã bên nhau:</h2>
+      </div>
+
+      <div class="counter-grid reveal">
+        <div class="counter-card">
+          <strong id="daysCount">0</strong>
+          <span>Days</span>
+        </div>
+        <div class="counter-card">
+          <strong id="hoursCount">0</strong>
+          <span>Hours</span>
+        </div>
+        <div class="counter-card">
+          <strong id="minutesCount">0</strong>
+          <span>Minutes</span>
+        </div>
+        <div class="counter-card">
+          <strong id="secondsCount">0</strong>
+          <span>Seconds</span>
+        </div>
+      </div>
+      <p id="anniversaryText" class="counter-note reveal"></p>
+    </section>
+
+    <section id="story" class="section">
+      <div class="section-heading reveal">
+       <p class="eyebrow"> </p>
+        <h2>Timeline</h2>
+        <p>Mỗi cột mốc là một chặng đường đáng nhớ</p>
+      </div>
+      <div id="timeline" class="timeline"></div>
+    </section>
+
+    <section id="gallery" class="section soft-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">PHOTO BOOK</p>
+        <h2>Quá trời khoảnh khắc của tụi mình luôn nèeeee</h2>
+        <p>Bấm vào ảnh để xem lớn.</p>
+      </div>
+      <div id="galleryGrid" class="gallery-grid"></div>
+    </section>
+
+    <section id="videos" class="section dark-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow"> </p>
+        <h2>Videos</h2>
+        <p>Xem lại những khoảnh khắc của tụi mình nèeeee</p>
+      </div>
+      <div id="videoGrid" class="video-grid"></div>
+    </section>
+
+    <section id="letter" class="section letter-section">
+      <div class="letter-card reveal">
+        <p class="eyebrow">Gửi chúng ta của sau này</p>
+        <h2>Huy Hoàng ♥♥♥ Ngọc Huyền</h2>
+        <p id="letterContent">
+          
+        </p>
+        <span id="letterSignature">— Our Memories</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Thương em nèeeeee ♥♥♥ </p>
+  </footer>
+
+  <button id="musicButton" class="music-button" aria-label="Bật/tắt nhạc">
+    ♪
+    <span id="musicLabel">Play music</span>
+  </button>
+
+  <button id="backToTop" class="back-to-top" aria-label="Lên đầu trang">↑</button>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightboxClose" class="lightbox-close" aria-label="Đóng">×</button>
+    <button id="lightboxPrev" class="lightbox-nav prev" aria-label="Ảnh trước">‹</button>
+    <img id="lightboxImage" src="" alt="Memory" />
+    <button id="lightboxNext" class="lightbox-nav next" aria-label="Ảnh sau">›</button>
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <audio id="backgroundMusic" autoplay loop preload="metadata">
+    <source src="assets/music/background.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="data/memories.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
