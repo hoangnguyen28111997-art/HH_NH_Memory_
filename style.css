@@ -924,7 +924,7 @@ footer {
   left: 0;
   right: 0;
 
-  background-size: auto 80%;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
