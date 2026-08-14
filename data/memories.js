@@ -232,6 +232,12 @@ const memoryVideos = [
     description: " "
   },
   {
+    src: "assets/videos/Danh_Dan.mp4",
+    //poster: "assets/videos/Poster_HB.png",
+    title: "Mãi như vậy nhaaaaa",
+    description: " "
+  },
+  {
     src: "assets/videos/CountDown_2025.mp4",
     //poster: "assets/videos/Poster_HB.png",
     title: "Đi Countdown hônggggg",
