@@ -178,9 +178,39 @@ const albums = [
 // Video: đặt file MP4 vào assets/videos rồi khai báo ở đây.
 const memoryVideos = [
   {
+    src: "assets/videos/Xem_Kich.mp4",
+    //poster: "assets/videos/Poster_HA_HD.png",
+    title: "Lần đầu đi coi kịch với iempeiuuuu",
+    description: " "
+  },
+  {
+    src: "assets/videos/1st_anni.mp4",
+    //poster: "assets/videos/Poster_HA_HD.png",
+    title: "Kỷ niệm 1 năm của tụi mìnhhhhhh",
+    description: " "
+  },
+  {
+    src: "assets/videos/2nd_anni.mp4",
+    //poster: "assets/videos/Poster_HA_HD.png",
+    title: "Mình yêu nhao được 2 năm gòi nèeeee",
+    description: " "
+  },
+  {
+    src: "assets/videos/1st_DaLat.mp4",
+    //poster: "assets/videos/Poster_2nd_DL.png",
+    title: "Lần đầu tụi mình đi Đà Lạt",
+    description: " "
+  },
+  {
+    src: "assets/videos/DN_BaNa.mp4",
+    //poster: "assets/videos/Poster_2nd_DL.png",
+    title: "Đi Bà Nà Hill hoyyyyy",
+    description: " "
+  },
+  {
     src: "assets/videos/Bien_Hong.mp4",
     poster: "assets/videos/Poster_DN.png",
-    title: "Tụi tui đi Đà Nẵng nèeee",
+    title: "Biển Đà Nẵng nữa nèeee",
     description: " "
   },
   {
@@ -193,6 +223,24 @@ const memoryVideos = [
     src: "assets/videos/2nd_DaLat.mp4",
     poster: "assets/videos/Poster_2nd_DL.png",
     title: "Lần thứ 2 mình đi Đà Lạt",
+    description: " "
+  },
+  {
+    src: "assets/videos/Binh_Minh_VT.mp4",
+    //poster: "assets/videos/Poster_HB.png",
+    title: "Bình minh Vũng Tàu thật yên bình",
+    description: " "
+  },
+  {
+    src: "assets/videos/CountDown_2025.mp4",
+    //poster: "assets/videos/Poster_HB.png",
+    title: "Đi Countdown hônggggg",
+    description: " "
+  },
+  {
+    src: "assets/videos/Di_Bao.mp4",
+    //poster: "assets/videos/Poster_HB.png",
+    title: "Việt Nam vô địch",
     description: " "
   },
     {
