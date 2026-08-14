@@ -801,7 +801,23 @@ footer {
   .menu-toggle {
     display: block;
   }
-
+	
+  .timeline-card h3 {
+  text-align: center;
+  text-wrap: balance;
+  width: 100%;
+  margin: 0 auto 14px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+	}
+	
+	/* Nội dung timeline trên mobile */
+	.timeline-card p {
+	  text-align: left;
+	  text-justify: auto;
+	  line-height: 1.65;
+	}
+	
   nav {
     position: absolute;
     top: 68px;
@@ -833,7 +849,15 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
+  .counter-note {
+  text-align: center;
+  text-wrap: balance;
 
+  max-width: 320px;
+  margin: 28px auto 0;
+
+  line-height: 1.5;
+  }
   .timeline::before {
     left: 12px;
   }
@@ -890,7 +914,50 @@ footer {
     justify-content: center;
     padding: 0;
   }
+  .hero {
+  min-height: 100svh;
+  padding: 90px 18px 45px;
+}
 
+/* Thu nhỏ ảnh một chút và giữ ảnh ở giữa */
+.hero-slide {
+  left: 0;
+  right: 0;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Giữ toàn bộ phần chữ trong màn hình */
+.hero-content {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+/* Huy Hoàng ♥ Ngọc Huyền */
+.hero h1 {
+  font-size: clamp(1.55rem, 7vw, 2.3rem);
+  line-height: 1.1;
+
+  white-space: nowrap;
+
+  width: 100%;
+  max-width: 100%;
+  margin: 10px auto 18px;
+}
+
+/* Dòng mô tả bên dưới */
+.hero-content > p:not(.eyebrow) {
+  font-size: 0.95rem;
+
+  white-space: normal;
+  text-wrap: balance;
+
+  max-width: 340px;
+  margin: 20px auto 25px;
+}
   .lightbox {
     padding: 60px 12px;
   }
@@ -902,8 +969,23 @@ footer {
   .lightbox-nav.prev { left: 4px; }
   .lightbox-nav.next { right: 4px; }
   .section-heading h2 {
-	  white-space: normal;
-	  font-size: 1.8rem;
+  white-space: normal;
+  font-size: 1.8rem;
+
+  text-align: center;
+  text-wrap: balance;
+
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading p {
+  text-align: center;
+  text-wrap: balance;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 }
 
