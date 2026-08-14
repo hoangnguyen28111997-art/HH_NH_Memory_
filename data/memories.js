@@ -136,6 +136,55 @@ const albums = [
     ]
   },
   {
+    title: "Về quê Ngọc Huyền",
+    //date: "2024",
+    //cover: "assets/images/vungtau-2025/cover.jpg",
+	//coverPhotos: [1, 2, 4]
+    description: "Lần đầu Ngọc Huyền dẫn Huy Hoàng về nhà ba mẹ",
+    photos: [
+      "assets/images/1st_Ve_Que/01.jpg",
+      "assets/images/1st_Ve_Que/02.jpg",
+      "assets/images/1st_Ve_Que/03.jpg",
+      "assets/images/1st_Ve_Que/04.jpg",
+	  "assets/images/1st_Ve_Que/05.jpg",
+	  "assets/images/1st_Ve_Que/06.jpg",
+    ]
+  },
+  {
+    title: "Đi chụp hình Noellll",
+    //date: "2024",
+    //cover: "assets/images/vungtau-2025/cover.jpg",
+	//coverPhotos: [1, 2, 4]
+    description: "Huy dẫn Ngọc Huyền đi chụp hình Noellll",
+    photos: [
+      "assets/images/Noel/01.jpg",
+      "assets/images/Noel/02.jpg",
+      "assets/images/Noel/03.jpg",
+      "assets/images/Noel/04.jpg",
+	  "assets/images/Noel/05.jpg",
+	  "assets/images/Noel/06.jpg",
+    ]
+  },
+  {
+    title: "Thảo Cầm Viên",
+    //date: "2024",
+    //cover: "assets/images/vungtau-2025/cover.jpg",
+	//coverPhotos: [1, 2, 4]
+    description: "Đi Thảo Cầm Viên chụp hình hôngggg",
+    photos: [
+      "assets/images/ThaoCamVien/01.jpg",
+      "assets/images/ThaoCamVien/02.jpg",
+      "assets/images/ThaoCamVien/03.jpg",
+      "assets/images/ThaoCamVien/04.jpg",
+	  "assets/images/ThaoCamVien/05.jpg",
+	  "assets/images/ThaoCamVien/06.jpg",
+      "assets/images/ThaoCamVien/07.jpg",
+      "assets/images/ThaoCamVien/08.jpg",
+      "assets/images/ThaoCamVien/09.jpg",
+	  "assets/images/ThaoCamVien/10.jpg"
+    ]
+  },
+  {
     title: "Đà Lạt 2025",
     //date: "2024",
     //cover: "assets/images/vungtau-2025/cover.jpg",
@@ -159,7 +208,7 @@ const albums = [
     //date: "2024",
     //cover: "assets/images/vungtau-2025/cover.jpg",
 	//coverPhotos: [1, 2, 4]
-    description: "Chuyến đi Đà Lạt đầu tiên của tụi mình nèeee",
+    description: "Đi Hồ Tràm hông zui lắm nèeee",
     photos: [
       "assets/images/Ho_Tram/10.jpg",
       "assets/images/Ho_Tram/04.jpg",
