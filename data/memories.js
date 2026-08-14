@@ -196,6 +196,12 @@ const memoryVideos = [
     description: " "
   },
   {
+    src: "assets/videos/Hahaha.mp4",
+    //poster: "assets/videos/Poster_2nd_DL.png",
+    title: "Hahaha mắc cừi quáaaa",
+    description: " "
+  },
+  {
     src: "assets/videos/1st_DaLat.mp4",
     //poster: "assets/videos/Poster_2nd_DL.png",
     title: "Lần đầu tụi mình đi Đà Lạt",
@@ -217,6 +223,18 @@ const memoryVideos = [
     src: "assets/videos/HoiAn_HoaDang.mp4",
     poster: "assets/videos/Poster_HA_HD.png",
     title: "Thả hoa đăng ở Hội An",
+    description: " "
+  },
+  {
+    src: "assets/videos/Sieu_Thi.mp4",
+    //poster: "assets/videos/Poster_2nd_DL.png",
+    title: "Đi siu thị hônggggg",
+    description: " "
+  },
+  {
+    src: "assets/videos/Cho_Que.mp4",
+    //poster: "assets/videos/Poster_2nd_DL.png",
+    title: "Đi chợ quê ăn vặt hônggggg",
     description: " "
   },
   {
