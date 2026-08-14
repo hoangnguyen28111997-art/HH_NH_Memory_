@@ -289,9 +289,21 @@ function setupMenu() {
   const button = document.getElementById("menuToggle");
   const nav = document.getElementById("mainNav");
 
-  button.addEventListener("click", () => nav.classList.toggle("open"));
+  // Bấm 3 gạch -> mở / đóng menu
+  button.addEventListener("click", () => {
+    nav.classList.toggle("open");
+  });
+
+  // Bấm vào một mục -> đóng menu
   nav.querySelectorAll("a").forEach(a => {
-    a.addEventListener("click", () => nav.classList.remove("open"));
+    a.addEventListener("click", () => {
+      nav.classList.remove("open");
+    });
+  });
+
+  // Cuộn trang -> tự động đóng menu
+  window.addEventListener("scroll", () => {
+    nav.classList.remove("open");
   });
 }
 
