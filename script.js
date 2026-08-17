@@ -518,22 +518,24 @@ function setupAutoMusic() {
 
   music.volume = 0.5;
 
-  // Thử phát ngay khi mở web
-  music.play().catch(() => {
-    console.log("Autoplay bị trình duyệt chặn");
-  });
+  async function startMusic() {
+    try {
+      await music.play();
 
-  // Nếu autoplay bị chặn,
-  // lần click/chạm đầu tiên sẽ phát nhạc
-  const startMusic = () => {
-    music.play();
+      // Sau khi phát thành công thì bỏ listener
+      document.removeEventListener("pointerdown", startMusic);
+      document.removeEventListener("touchstart", startMusic);
+      document.removeEventListener("click", startMusic);
 
-    document.removeEventListener("click", startMusic);
-    document.removeEventListener("touchstart", startMusic);
-  };
+    } catch (error) {
+      console.log("Chưa thể phát nhạc");
+    }
+  }
 
-  document.addEventListener("click", startMusic);
-  document.addEventListener("touchstart", startMusic);
+  // Chạm/click lần đầu ở bất kỳ đâu
+  document.addEventListener("pointerdown", startMusic, { once: false });
+  document.addEventListener("touchstart", startMusic, { once: false });
+  document.addEventListener("click", startMusic, { once: false });
 }
 
 function setupVideoMusicControl() {

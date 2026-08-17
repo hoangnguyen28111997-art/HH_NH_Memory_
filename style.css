@@ -668,6 +668,7 @@ nav a:hover::after {
 .letter-card p {
   font-family: "Playfair Display", serif;
   font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  white-space: pre-line;
 }
 
 .letter-card span {
@@ -812,11 +813,11 @@ footer {
 	}
 	
 	/* Nội dung timeline trên mobile */
-	.timeline-card p {
-	  text-align: left;
-	  text-justify: auto;
-	  line-height: 1.65;
-	}
+  .timeline-card p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.65;
+  }
 	
   nav {
     position: absolute;
@@ -1256,4 +1257,35 @@ footer {
 
 .back-albums-btn:hover .back-icon {
   transform: translateX(-3px);
+}
+
+/* =========================
+   LETTER - MOBILE
+========================= */
+@media (max-width: 760px) {
+
+  .letter-card {
+    width: 100%;
+    padding: 28px 16px;
+  }
+
+  .letter-card h2 {
+    white-space: nowrap;
+    font-size: 4.8vw;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  .letter-card .eyebrow {
+    white-space: nowrap;
+    font-size: 2.8vw;
+    letter-spacing: 0.18em;
+    text-align: center;
+  }
+  .letter-card #letterContent {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.65;
+  white-space: pre-line;
+  }
 }
