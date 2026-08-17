@@ -1257,3 +1257,23 @@ footer {
 .back-albums-btn:hover .back-icon {
   transform: translateX(-3px);
 }
+
+/* =========================
+   LETTER - MOBILE
+========================= */
+@media (max-width: 760px) {
+
+  .letter-card {
+    width: 100%;
+    padding: 28px 16px;
+  }
+
+  .letter-card h2 {
+    white-space: nowrap;
+    font-size: 4.8vw;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 20px;
+  }
+
+}
