@@ -12,7 +12,12 @@ const siteConfig = {
   anniversaryText: "Mỗi ngày bên nhau của chúng ta là một món quà.",
 
   letter: `Bà chả hơm ơiiiiii,
-  Cảm ơn iem đã đến bên anh, kể từ ngày em đến`,
+  
+  Cảm ơn iem đã đến bên anh, từ ngày em đến đã làm anh thay đổi rất nhiều, không còn tâm trạng ủ rủ, lúc nào cũng vui tươi, không còn xề xòa nữa, biết chăm chút bản thân, nhưng thay đổi lớn nhất là không còn cô đơn nữa hí hí híiiii
+  Em thấy anh giỏi hăm, tự làm nguyên trang web này luôn ó, mà cũng có chút giúp sức của AI, bữa nay AI giỏi lắm luôn á, có thể làm được mọi thứ luôn, nhưng có một thứ AI không thể làm được, đó là tình cảm anh dành cho em, từng dòng tâm sự, từng dòng tin nhắn anh đều do tự tay viết ra, có thể nó không hay, không văn chương bằng, nhưng tất cả đều là những tình cảm chân thành mà anh muốn dành cho em. Mong là chúng ta luôn dành cho nhau những tình cảm chân thành nhất cho dù cuộc sống này vẫn còn nhiều bộn bề, vẫn còn nhiều khó khăn, có đôi lúc mình không hiểu nhau, có đôi lúc mình mâu thuẫn, có đôi lúc cãi vả, nhưng chân thành là thứ giữ chúng ta ở lại, vượt qua khó khăn để có thể cùng nhau đồng hành trên con đường phía trước.
+  Con đường phía trước còn nhiều khó khăn, còn nhiều rào cản. Anh hy vọng chúng ta sẽ luôn bên cạnh nhau, cùng nhau nắm tay vượt qua và đón nhận những món quà mà cuộc sống giành cho mình.
+  
+  Thương em nèeeeeee ♥♥♥`,
 
   signature: "Huy Hoàng ♥ Ngọc Huyền"
 };
@@ -44,13 +49,13 @@ const memories = [
   {
     date: "2024-08-19",
     title: "Kỷ niệm 1 năm ngày chúng ta bắt đầu hẹn hò",
-    description: "Hôm nay là ngày mình tròn 1 năm bên nhau. Lúc mới bắt đầu, anh sợ đủ thứ, không không biết mình sẽ yêu nhau như thế nào, không biết có thể làm được 1 người yêu tốt không, không biết mình sẽ yêu nhau bao lâu. Một năm tuy không phải là quãng thời gian quá dài, nhưng giúp mình biết được mình bên nhau vì điều gì, có thể vì nhau mà bỏ qua, thông cảm cho khiếm khuyết của đối phương. Một năm chỉ mới là bước khởi đầu, hy vọng vào ngày này mỗi năm, chúng ta vẫn còn được ngồi lại bên nhau, cùng xem lại những kỷ niệm và nhắc cho nhau lý do mình bên nhau vì điều gì.",
+    description: "Hôm nay là ngày mình tròn 1 năm bên nhau. Lúc mới bắt đầu, anh sợ đủ thứ, sợ không biết mình sẽ yêu nhau như thế nào, không biết có thể làm được 1 người yêu tốt không, không biết mình sẽ yêu nhau bao lâu. Một năm tuy không phải là quãng thời gian quá dài, nhưng giúp mình biết được mình bên nhau vì điều gì, có thể vì nhau mà bỏ qua, thông cảm cho khiếm khuyết của đối phương. Một năm chỉ mới là bước khởi đầu, hy vọng vào ngày này mỗi năm, chúng ta vẫn còn được ngồi lại bên nhau, cùng xem lại những kỷ niệm và nhắc cho nhau lý do mình bên nhau vì điều gì.",
     image: "assets/images/1st_anni.jpg"
   },
   {
     date: "2025-08-19",
     title: "Vậy là chúng ta đã ở bên nhau được 2 năm rồi hý hý",
-    description: " ",
+    description: "Chúng ta đã bên nhau được 2 năm rồi nè. Hai năm với nhiều sự vui buồn, có lúc cãi vả nhưng mình đã cùng nhau vượt qua. Quãng thời gian 2 năm đủ để anh nhận ra chúng ta quan trọng với nhau, anh nhận ra nếu không có nhau bên cạnh sẽ đáng sợ như nào cho dù có nhiều lúc mình vẫn còn bất đồng quan điểm, vẫn còn có những trận cãi vả lớn, nhưng đó là lúc mình hiểu nhau nhiều hơn và muốn gắn bó với nhau lâu hơn.",
     image: "assets/images/2nd_anni.jpg"
   },
   {
