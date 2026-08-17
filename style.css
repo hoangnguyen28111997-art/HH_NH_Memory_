@@ -813,11 +813,11 @@ footer {
 	}
 	
 	/* Nội dung timeline trên mobile */
-	.timeline-card p {
-	  text-align: left;
-	  text-justify: auto;
-	  line-height: 1.65;
-	}
+  .timeline-card p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.65;
+  }
 	
   nav {
     position: absolute;
@@ -1281,5 +1281,11 @@ footer {
     font-size: 2.8vw;
     letter-spacing: 0.18em;
     text-align: center;
+  }
+  .letter-card #letterContent {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.65;
+  white-space: pre-line;
   }
 }
