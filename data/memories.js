@@ -11,7 +11,8 @@ const siteConfig = {
 
   anniversaryText: "Mỗi ngày bên nhau của chúng ta là một món quà.",
 
-  letter: `xxx`,
+  letter: `Bà chả hơm ơiiiiii,
+  Cảm ơn iem đã đến bên anh, kể từ ngày em đến`,
 
   signature: "Huy Hoàng ♥ Ngọc Huyền"
 };
@@ -43,7 +44,7 @@ const memories = [
   {
     date: "2024-08-19",
     title: "Kỷ niệm 1 năm ngày chúng ta bắt đầu hẹn hò",
-    description: " ",
+    description: "Hôm nay là ngày mình tròn 1 năm bên nhau. Lúc mới bắt đầu, anh sợ đủ thứ, không không biết mình sẽ yêu nhau như thế nào, không biết có thể làm được 1 người yêu tốt không, không biết mình sẽ yêu nhau bao lâu. Một năm tuy không phải là quãng thời gian quá dài, nhưng giúp mình biết được mình bên nhau vì điều gì, có thể vì nhau mà bỏ qua, thông cảm cho khiếm khuyết của đối phương. Một năm chỉ mới là bước khởi đầu, hy vọng vào ngày này mỗi năm, chúng ta vẫn còn được ngồi lại bên nhau, cùng xem lại những kỷ niệm và nhắc cho nhau lý do mình bên nhau vì điều gì.",
     image: "assets/images/1st_anni.jpg"
   },
   {
